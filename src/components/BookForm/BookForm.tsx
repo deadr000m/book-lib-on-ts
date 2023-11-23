@@ -23,7 +23,11 @@ export const BookForm = () => {
   const isLoadingViaAPA = useAppSelector(selectIsLoadingViaAPI);
 
   function handleAddRandomBookViaAPI() {
-    dispatch(fetchBook('http://localhost:4000/random-book-delay'));
+    dispatch(
+      fetchBook(
+        'https://enigmatic-reef-91908-a176c9c634ee.herokuapp.com/random-book-delay'
+      )
+    );
   }
 
   function handleAddRandomBook() {
