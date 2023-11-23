@@ -1,0 +1,11 @@
+.nav-list {
+  display: flex;
+  column-gap: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-item {
+  color: white;
+  list-style-type: none;
+}
