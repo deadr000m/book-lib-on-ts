@@ -1,17 +1,19 @@
-export let books: any[] = [
+import { IBookAPI } from '../models/IBooksAPI';
+
+export let books: IBookAPI[] = [
   {
-    title: 'things fall apart',
-    author: 'Roman Tishchenko',
+    title: 'An American Tragedy',
+    author: 'Еheodore Herman Albert Dreiser',
     year: 1958,
   },
   {
-    title: 'For whom the bell rings',
-    author: 'Ivan Potockie',
+    title: 'For Whom the Bell Tolls',
+    author: 'Ernest Hemingway',
     year: 1944,
   },
   {
     title: '1984',
-    author: 'Pavel Kravcov',
+    author: 'George Orwell',
     year: 1947,
   },
   {

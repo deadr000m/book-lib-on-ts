@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Error from './components/Error/Error';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
@@ -18,7 +18,10 @@ function App() {
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contacts" element={<Contacts />}></Route>
-          <Route path="*" element={<h4>Page is not found</h4>} />
+          <Route
+            path="*"
+            element={<p className="wrong-page">Page is not found</p>}
+          />
         </Routes>
         <Error></Error>
       </BrowserRouter>

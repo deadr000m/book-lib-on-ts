@@ -1,10 +1,7 @@
-import './BookForm.css';
+import './BookForm.scss';
 import { setError } from '../../redux/slices/errorSlice';
 import React, { useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
-// import { addBook } from '../../redux/books/actionCreators';
 import { books } from '../../data/book';
-// import { createBookWithID } from '../../utils/createBookWithID';
 import { createBookWithID } from '../../utilits/createBookWithID';
 import { addBook } from '../../redux/slices/booksSlice';
 import {

@@ -1,7 +1,15 @@
 import React from 'react';
 
 const Contacts = () => {
-  return <h1 className="app-contacts">skype: "deadr00m"</h1>;
+  return (
+    <div className="app-contacts">
+      <h1>Contact info:</h1>
+      <ul className="app-contacts-list">
+        <li>email: romkatisha@gmai.com</li>
+        <li>skype: deadr00m</li>
+      </ul>
+    </div>
+  );
 };
 
 export default Contacts;

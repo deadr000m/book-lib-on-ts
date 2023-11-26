@@ -1,6 +1,3 @@
-import React from 'react';
-// import { deleteBook } from '../../redux/books/actionCreators';
-// import { toggleFaforite } from '../../redux/books/actionCreators';
 import { deleteBook } from '../../redux/slices/booksSlice';
 import { toggleFavorite } from '../../redux/slices/booksSlice';
 import { BsBookmarkCheckFill } from 'react-icons/bs';
@@ -8,9 +5,7 @@ import { BsBookmarkCheck } from 'react-icons/bs';
 import { selectBook } from '../../redux/slices/booksSlice';
 import { useAppDispatch } from '../../hooks/hooks';
 import { useAppSelector } from '../../hooks/hooks';
-
-import './BookList.css';
-// import { BsBookmarkPlusFill } from 'react-icons/bs';
+import './BookList.scss';
 import {
   selectTitleFilter,
   selectAuthorFilter,

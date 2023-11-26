@@ -4,4 +4,5 @@ export interface IBook {
   isFaforite: boolean;
   id: string;
   source: string;
+  year?: number;
 }

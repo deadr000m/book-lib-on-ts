@@ -38,9 +38,9 @@ console.log(filterSlice.actions);
 console.log(filterSlice.actions.setTitleFilter('test'));
 
 export const { setTitleFilter, resetFilters, setAuthorFilter, toggleFaforite } =
-  filterSlice.actions; //это actionCreater, название которого совпатает с ридьюсером
+  filterSlice.actions;
 
-export default filterSlice.reducer; //'это ридьюсер
+export default filterSlice.reducer;
 
 export const selectTitleFilter = (state: RootState) => state.filter.title;
 export const selectAuthorFilter = (state: RootState) => state.filter.author;

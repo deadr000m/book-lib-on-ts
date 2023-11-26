@@ -1,12 +1,11 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import './Menu.css';
+import './Menu.scss';
 import { CiMenuBurger } from 'react-icons/ci';
 import { useState } from 'react';
 import { IoMdClose } from 'react-icons/io';
 
 const Menu = () => {
-  const [isColumn, setIsColumn] = useState(false);
+  const [isColumn, setIsColumn] = useState<boolean>(false);
   return (
     <>
       <div>

@@ -44,13 +44,18 @@
 }
 
 .app-contacts {
-  color: #fff;
+  color: white;
+}
+
+.app-contacts-list {
+  text-align: start;
 }
 
 .app-about {
   color: #fff;
 }
-/* ---------------Menu----------------------- */
+
+// ---------------------Menu--------------------------------
 .menu-nav {
   display: flex;
   justify-content: center;
@@ -64,8 +69,14 @@ a {
 .nav-button {
   display: none;
 }
-/* --------------------------------------------------- */
 
+// --------------Page is not found-----------------------
+.wrong-page {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+// --------------------------Адаптив приложения---------------------------------
 @media (max-width: 768px) {
   .app-main {
     width: 100%;
